@@ -1,0 +1,177 @@
+/* Add CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: #fff9fd;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 400px;
+    max-width: 700px;
+    background-color: blueviolet;
+    background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    border-radius: 0.5em;
+    background-size: cover;
+    object-fit: contain;
+    box-shadow: 0 8px 8px 8px rgb(219, 217, 217);
+}
+
+.closet {
+    height: 400px;
+    width: 100%;
+    border-radius: 0.5em;
+    background-size: cover;
+    opacity: 90px;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+}
+
+.content {
+    /* background-color: blueviolet; */
+    height: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.auction {
+    padding-bottom: 30px;
+}
+
+.auction h1 {
+    padding-bottom: 10px;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.auction p {
+    font-size: 13px;
+    color: white;
+}
+
+button {
+    background-color:white;
+    padding: 7px;
+    border-radius: 0.4em;
+    color: #f73504;
+    font-size: 13px;
+    transition: 2s;
+}
+
+button:hover {
+    padding: 7px;
+    border-radius: 0.4em;
+    background-color: #f78204;
+    font-size: 13px;
+    color: white;
+}
+
+.btn h2 {
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: white;
+    padding-top: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .body-container {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container {
+        height: 670px;
+        width: 80%;
+        background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+        border-radius: 0.3em;
+        background-size: cover;
+        object-fit: contain;
+    }
+
+    .closet {
+        height: 670px;
+        width: 100%;
+        border-radius: 0.3em;
+        background-size: cover;
+        opacity: 90px;
+        padding: 10px;
+    }
+
+    .icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .content {
+        /* background-color: blueviolet; */
+        height: 300px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .auction {
+        padding-bottom: 20px;
+    }
+
+    .auction h1 {
+        padding-bottom: 5px;
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+
+    }
+
+    .auction p {
+        font-size: 7px;
+        color: white;
+    }
+
+    button {
+        background-color: white;
+        padding: 7px;
+        border-radius: 0.4em;
+        color: #f73504;
+        font-size: 8px;
+        transition: 2s;
+    }
+
+    button:hover {
+        padding: 7px;
+        border-radius: 0.4em;
+        background-color: #f73504;
+        font-size: 13px;
+        color: white;
+    }
+
+    .btn h2 {
+        padding-bottom: 20px;
+        font-size: 10px;
+        color: white;
+        padding-top: 15px;
+    }
+}
